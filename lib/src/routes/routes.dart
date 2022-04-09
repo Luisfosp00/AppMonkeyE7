@@ -1,4 +1,5 @@
 import 'package:appmonkeyequipo7/src/pages/log_page.dart';
+import 'package:appmonkeyequipo7/src/pages/newpassword_page.dart';
 import 'package:appmonkeyequipo7/src/pages/resetpassword_page.dart';
 import 'package:appmonkeyequipo7/src/pages/signup_page.dart';
 import 'package:appmonkeyequipo7/src/pages/verification_page.dart';
@@ -14,5 +15,6 @@ final routes=<String, WidgetBuilder>{
   '/signup': (BuildContext context) => const SignPage(),
   '/resetP': (BuildContext context) => const ResetPage(),
   '/verif': (BuildContext context) => const VerificationPage(),
+  '/newpass': (BuildContext context) => const NewPassPage(),
 
 };

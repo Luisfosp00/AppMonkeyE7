@@ -65,6 +65,12 @@ flutter:
     - lib/src/img/Monkey_face.png
     - lib/src/img/Shaped_subtraction.png
     - lib/src/img/Sustraccion_2.png
+    - lib/src/img/Find_food_you_love_vector.png
+    - lib/src/img/Fast_delivery.png
+    - lib/src/img/Live_tracking_vector.png
+    - lib/src/img/Slider_indicators1.png
+    - lib/src/img/Slider_indicators2.png
+    - lib/src/img/Slider_indicators3.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

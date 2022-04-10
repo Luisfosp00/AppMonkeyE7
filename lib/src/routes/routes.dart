@@ -1,3 +1,4 @@
+import 'package:appmonkeyequipo7/src/pages/addCreditCard_page.dart';
 import 'package:appmonkeyequipo7/src/pages/carrusel1_page.dart';
 import 'package:appmonkeyequipo7/src/pages/carrusel2_page.dart';
 import 'package:appmonkeyequipo7/src/pages/carrusel3_page.dart';
@@ -31,4 +32,5 @@ final routes=<String, WidgetBuilder>{
   '/latest':(BuildContext context) => const LatestOffersPage(),
   '/profile':(BuildContext context) => const ProfilePage(),
   '/more': (BuildContext context) => const MorePage(),
+  '/creditcard': (BuildContext context) => const AddCreditCardPage(),
 };

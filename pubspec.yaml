@@ -85,6 +85,8 @@ flutter:
     - lib/src/img/Notifications.png
     - lib/src/img/Inbox.png
     - lib/src/img/About_us.png
+    - lib/src/img/mas.png
+
     
 
 

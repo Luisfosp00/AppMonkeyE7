@@ -71,6 +71,13 @@ flutter:
     - lib/src/img/Slider_indicators1.png
     - lib/src/img/Slider_indicators2.png
     - lib/src/img/Slider_indicators3.png
+    - lib/src/img/French_Apple_Pie.png
+    - lib/src/img/Star.png
+    - lib/src/img/Dark_Chocolate_Cake.png
+    - lib/src/img/Street_Shake.png
+    - lib/src/img/Brownies.png
+    
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

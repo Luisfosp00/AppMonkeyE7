@@ -15,6 +15,7 @@ import 'package:appmonkeyequipo7/src/pages/notifications_page.dart';
 import 'package:appmonkeyequipo7/src/pages/profile_page.dart';
 import 'package:appmonkeyequipo7/src/pages/resetpassword_page.dart';
 import 'package:appmonkeyequipo7/src/pages/signup_page.dart';
+import 'package:appmonkeyequipo7/src/pages/thank_page.dart';
 import 'package:appmonkeyequipo7/src/pages/verification_page.dart';
 import 'package:flutter/material.dart';
 import 'package:appmonkeyequipo7/src/pages/login_page.dart';
@@ -32,7 +33,6 @@ final routes=<String, WidgetBuilder>{
   '/carrusel1': (BuildContext context) => const Carrusel1Page(),
   '/carrusel2': (BuildContext context) => const Carrusel2Page(),
   '/carrusel3': (BuildContext context) => const Carrusel3Page(),
-
   '/desserts':(BuildContext context) => const Desserts(),
   '/latest':(BuildContext context) => const LatestOffersPage(),
   '/profile':(BuildContext context) => const ProfilePage(),
@@ -43,5 +43,7 @@ final routes=<String, WidgetBuilder>{
   '/inbox':(BuildContext context) => const InboxPage(),
   '/checkout': (BuildContext context) => const CheckoutPage(),
   '/changeadd': (BuildContext context) => const ChangeAddressPage(),
+  '/thankyou': (BuildContext context) => const ThankYouPage(),
+
 
 };

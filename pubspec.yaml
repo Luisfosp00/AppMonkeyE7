@@ -94,6 +94,7 @@ flutter:
     - lib/src/img/Elipse77.png
     - lib/src/img/TrazadoEstrella.png
     - lib/src/img/Grupo8176.png
+    - 'lib/src/img/Billetera.png'
 
     
 

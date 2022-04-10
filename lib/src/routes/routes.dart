@@ -1,8 +1,10 @@
+import 'package:appmonkeyequipo7/src/pages/aboutUs_page.dart';
 import 'package:appmonkeyequipo7/src/pages/addCreditCard_page.dart';
 import 'package:appmonkeyequipo7/src/pages/carrusel1_page.dart';
 import 'package:appmonkeyequipo7/src/pages/carrusel2_page.dart';
 import 'package:appmonkeyequipo7/src/pages/carrusel3_page.dart';
 import 'package:appmonkeyequipo7/src/pages/desserts.dart';
+import 'package:appmonkeyequipo7/src/pages/inbox_page.dart';
 import 'package:appmonkeyequipo7/src/pages/latestOffers_page.dart';
 import 'package:appmonkeyequipo7/src/pages/log_page.dart';
 import 'package:appmonkeyequipo7/src/pages/more_page.dart';
@@ -35,4 +37,7 @@ final routes=<String, WidgetBuilder>{
   '/more': (BuildContext context) => const MorePage(),
   '/creditcard': (BuildContext context) => const AddCreditCardPage(),
   '/notifications':(BuildContext context) => const NotificationsPage(),
+  '/about':(BuildContext context) => const AboutUsPage(),
+  '/inbox':(BuildContext context) => const InboxPage(),
+
 };

@@ -2,6 +2,7 @@ import 'package:appmonkeyequipo7/src/pages/carrusel1_page.dart';
 import 'package:appmonkeyequipo7/src/pages/carrusel2_page.dart';
 import 'package:appmonkeyequipo7/src/pages/carrusel3_page.dart';
 import 'package:appmonkeyequipo7/src/pages/desserts.dart';
+import 'package:appmonkeyequipo7/src/pages/latestOffers_page.dart';
 import 'package:appmonkeyequipo7/src/pages/log_page.dart';
 import 'package:appmonkeyequipo7/src/pages/newpassword_page.dart';
 import 'package:appmonkeyequipo7/src/pages/resetpassword_page.dart';
@@ -25,4 +26,5 @@ final routes=<String, WidgetBuilder>{
   '/carrusel3': (BuildContext context) => const Carrusel3Page(),
 
   '/desserts':(BuildContext context) => const Desserts(),
+  '/latest':(BuildContext context) => const LatestOffersPage(),
 };

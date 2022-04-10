@@ -7,6 +7,7 @@ import 'package:appmonkeyequipo7/src/pages/latestOffers_page.dart';
 import 'package:appmonkeyequipo7/src/pages/log_page.dart';
 import 'package:appmonkeyequipo7/src/pages/more_page.dart';
 import 'package:appmonkeyequipo7/src/pages/newpassword_page.dart';
+import 'package:appmonkeyequipo7/src/pages/notifications_page.dart';
 import 'package:appmonkeyequipo7/src/pages/profile_page.dart';
 import 'package:appmonkeyequipo7/src/pages/resetpassword_page.dart';
 import 'package:appmonkeyequipo7/src/pages/signup_page.dart';
@@ -33,4 +34,5 @@ final routes=<String, WidgetBuilder>{
   '/profile':(BuildContext context) => const ProfilePage(),
   '/more': (BuildContext context) => const MorePage(),
   '/creditcard': (BuildContext context) => const AddCreditCardPage(),
+  '/notifications':(BuildContext context) => const NotificationsPage(),
 };

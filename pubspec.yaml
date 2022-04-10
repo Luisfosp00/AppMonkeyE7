@@ -80,6 +80,11 @@ flutter:
     - lib/src/img/Isso.png
     - lib/src/img/Cafe_Beans.png
     - lib/src/img/foto_profile.jpg
+    - lib/src/img/Paymentdetails.png
+    - lib/src/img/My_orders.png
+    - lib/src/img/Notifications.png
+    - lib/src/img/Inbox.png
+    - lib/src/img/About_us.png
     
 
 
